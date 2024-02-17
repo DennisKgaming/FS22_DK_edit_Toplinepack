@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<modDesc descVersion="60">
+
+    <author>DennisK</author>
+	
+    <version>1.0.0.0</version>
+	
+    <title>
+        <en>Topliner pack DK edit</en>
+    </title>
+	
+    <description>
+        <en>The Topliner pack consists of a Harvester, header and headertrailer</en>
+    </description>
+	
+    <iconFilename>icons/icon_ToplinerPack.png</iconFilename>
+	
+    <storeItems>
+        <storeItem xmlFilename="xml/topLiner4090.xml"/>
+        <storeItem xmlFilename="xml/header4090.xml"/>
+        <storeItem xmlFilename="xml/header4090Trailer.xml"/>
+    </storeItems>
+	
+	<multiplayer supported="true"/>
+	
+	<extraSourceFiles>
+        <sourceFile filename="scripts/categorizer.lua"/>
+    </extraSourceFiles>
+	
+	<newcategory name="DennisKvehicles" title="DennisK" type="VEHICLE" img="Categories/CategoryVehicles.png" />
+	
+	<newcategory name="DennisKtools" title="DennisK" type="TOOL" img="Categories/CategoryTools.png" />
+	
+</modDesc>
